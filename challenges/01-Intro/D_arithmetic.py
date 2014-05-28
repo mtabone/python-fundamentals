@@ -9,6 +9,8 @@ the_other = 22
 ## add those values together (using only variable names, NOT numbers), and put
 ## the results in a variable called the_answer
 
+the_answer = one_hand + the_other
+
 print "The answer is", the_answer
 
 # exponentiation
@@ -17,7 +19,7 @@ print "The answer is", the_answer
 ## Can you fix this function with the correct operator?
 
 def exponentiate(base, exponent):
-    return base * exponent
+    return base ** exponent
 
 print "2 to the 10th power is", exponentiate(2, 10)
 
@@ -26,12 +28,12 @@ print "2 to the 10th power is", exponentiate(2, 10)
 ## integer division
 
 ## Remember how integer arithmetic works?
-print "5 / 2 =", 5 / 2
+print "5 / 2 =", 5 // 2
 
 ## The modulus operator gives us what's left: %
 ## To find out what's left, substitute % for / in the following expression
 
-remainder = 5 / 2
+remainder = 5 % 2
 print "After 5 / 2,", remainder, "is left"
 
 # Getting a different "right" answer

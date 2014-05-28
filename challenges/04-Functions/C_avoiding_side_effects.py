@@ -9,7 +9,7 @@
 def exponentiate(x, y):
     return x ** y
 
-print '2 ** 3 =', exponentiate(2,3)
+#print '2 ** 3 =', exponentiate(2,3)
 
 if __name__ == '__main__':
     pass # This is python's "placeholder" do-nothing statement
